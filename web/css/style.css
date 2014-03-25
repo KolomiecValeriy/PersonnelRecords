@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/******CONTAINER*******/
+#container{
+	width:1000px;
+	margin:0 auto;
+	background-color:#fff;
+}
+/******CONTENT*******/
+#head{
+	width:100%;
+	height:50px;
+	/*background-color:#000;*/
+	color:#666;
+	text-align:center;
+}
+/******CONTENT*******/
+#content{	
+	margin-top:30px;
+}
+.menu{
+	height: 60px;
+	text-align:center;
+}
+.menuItem{
+	height:20px;
+	font-size:12px;
+	line-height:24px;
+	float:left;	
+	padding-left: 23px;
+	background-repeat: no-repeat;
+}
+.menuItem span{
+	font-weight:bold;
+}
+.menuItem a{
+	font-weight:bold;
+	color:#000;
+}
+#addEmployee{
+	background-image: url(../img/add.png);
+}
+#sortEmployee{
+	float:right;	
+}
+/******Table employees*******/
+.tableEmplayees{
+	width:100%;
+	margin-top:40px;
+}
+.tableEmplayees table{
+	width:100%;
+}
+td.id{
+	text-align:center;
+}
+.tableEmplayees td{
+	margin-left: 2px;
+	padding-left: 3px;
+	text-align: center;
+}
+/******Add employee page*******/
+#newEmployee{
+	text-align: center;
+}
+#form{
+	margin: 15px auto 0;
+	padding: 10px;
+	width: 350px;
+	text-align: left;
+	/*border: 1px solid black;*/
+}
+#newEmployee input{
+	margin: 5px 0 10px;
+	/*width: 100%;*/
+}
+.btn{
+	width:100px;
+}
+#back{
+	background-image: url(../img/back.png);
+}
+
+
+
